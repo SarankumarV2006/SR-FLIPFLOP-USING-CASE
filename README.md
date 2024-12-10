@@ -35,15 +35,52 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+Step 1: Create a New Project
+
+1. Open Quartus Prime.
+2. Click "File" > "New Project Wizard".
+3. Choose "Verilog" as the design language.
+4. Select a project name and location.
+
+Step 2: Write the Verilog Code
+
+1. Create a new file (sr_flipflop.v) in the project directory.
+2. Copy and paste the Verilog code for the SR flip-flop (provided earlier).
+3. Save the file.
+
+Step 3: Create a Testbench
+
+1. Create a new file (tb_sr_flipflop.v) in the project directory.
+2. Copy and paste the testbench code (provided earlier).
+3. Save the file.
+
+Step 4: Compile and Simulate
+1. Add both files (sr_flipflop.v and tb_sr_flipflop.v) to the project.
+2. Click "Compile" to compile the design.
+3. Click "Simulate" to run the simulation.
+4. Observe the waveform outputs.
+
+Step 5: Verify Functionality
+
+1. Verify the output waveforms match the expected behavior based on the state table.
+2. Check for hold, set, and reset conditions.
+
+Step 6: Implement on FPGA (Optional)
+
+1. If desired, program the FPGA board with the compiled design.
+2. Verify the hardware implementation using external inputs and outputs.
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by:Sarankumar.V RegisterNumber:24010668
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![Screenshot 2024-12-10 143130](https://github.com/user-attachments/assets/bc7aeacd-d556-4581-ae31-0ce8d48bdac6)
 
 **RESULTS**
+Thus the truth table of sr flipflop in Quartus
