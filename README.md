@@ -19,17 +19,18 @@ SR Flip-Flop SR flip-flop operates with only positive clock transitions or negat
  
 This circuit has two inputs S & R and two outputs Qtt & Qtt’. The operation of SR flipflop is similar to SR Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable. The following table shows the state table of SR flip-flop.
 
-![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/dabfc4f4-87e3-4cbc-9472-f89ee1b5ed30)
+![Screenshot 2024-12-10 144335](https://github.com/user-attachments/assets/b4afd217-4c02-4c79-9edc-c37fe760a71e)
 
  
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop. Present Inputs Present State Next State
 
-![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/dd90d16c-aec5-4290-a586-e2346b1e9eb5)
+![Screenshot 2024-12-10 144315](https://github.com/user-attachments/assets/42f17af4-1870-47ef-a010-42c95d43d202)
 
  
 By using three variable K-Map, we can get the simplified expression for next state, Qt+1t+1. The three variable K-Map for next state, Qt+1t+1 is shown in the following figure.
 
-![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/473efad6-d70b-4ca7-aeb7-898bbfca319f)
+![Screenshot 2024-12-16 093438](https://github.com/user-attachments/assets/52a17602-6b40-4ba8-92f6-397e7d22e053)
+
 
  
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
@@ -100,4 +101,4 @@ endmodule
 ![Screenshot 2024-12-10 143130](https://github.com/user-attachments/assets/bc7aeacd-d556-4581-ae31-0ce8d48bdac6)
 
 **RESULTS**
-Thus the truth table of sr flipflop in Quartus
+Thus the truth table of sr flipflop in Quartus|| using verilog programming are studied,verify and executed successfully.
